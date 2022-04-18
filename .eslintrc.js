@@ -9,5 +9,7 @@ module.exports = {
     sourceType: "module",
   },
   plugins: ["vue", "prettier"],
-  rules: {},
+  rules: {
+    "vue/multi-word-component-names": "off",
+  },
 };
